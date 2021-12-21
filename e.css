@@ -1,0 +1,650 @@
+:root {
+  --primary-color: #ffcc66;
+  --secondary-color: #770A18;
+  --third-color: #f8cf7d;
+  --fourth-color: #17548C;
+}
+/* Icon float*/
+@media only screen and (min-width: 768px) {
+  a#wsp_Icon {
+    width: 10%;
+    left: 0;
+    height: 21%;
+    background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fwhatsappicon.png?v=1634428787884");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: fixed;
+    top: 80%;
+    z-index: 3;
+  }
+}
+body {
+  background-color: whitesmoke;
+}
+
+.content {
+  margin: 0 auto;
+  width: 100%;
+}
+
+header {
+  display: flex;
+  flex-flow: column;
+}
+
+.header_top {
+  background-color: var(--secondary-color);
+  margin-bottom: 1%;
+  justify-content: center;
+  align-items: center;
+  margin-left: -5%;
+}
+ul.header_top a img {
+  width: 150%;
+  max-width: 1.5rem;
+  margin-left: -100%;
+}
+
+ul.header_top {
+  display: flex;
+  margin-top: 1%;
+}
+ul.header_top > li {
+  justify-content: space-between;
+  margin-left: 5%;
+}
+
+li {
+  list-style: none;
+}
+
+ul.header_top li:nth-of-type(4) {
+  margin-left: 5%;
+  display: flex;
+  flex-flow: wrap;
+}
+li.searchbox {
+  margin-left: 30%;
+  margin-right: 1%;
+  width: 50%;
+}
+
+form.searchbo {
+  width: 50%;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .header_top {
+    margin-left: -2%;
+  }
+  li.searchbox {
+    margin-right: 5%;
+  }
+
+  ul.header_top > li {
+    margin-left: 5%;
+  }
+  ul.header_top li:nth-of-type(4) {
+    margin-left: 5%;
+    display: flex;
+    flex-flow: row;
+  }
+}
+
+/* header-bottom */
+
+nav.header_bottom {
+  background-color: var(--third-color);
+  display: flex;
+  justify-content: left;
+  align-items: center;
+}
+
+nav.header_bottom img {
+  width: 133%;
+  height: 6rem;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+ul.header_bottom {
+  margin-left: -10%;
+  width: 40rem;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+ul.header_bottom li:nth-of-type(1) {
+  display: flex;
+}
+ul.header_bottom li:nth-of-type(1) img {
+  width: 100%;
+  max-width: 150%;
+  min-width: 5rem;
+  margin-top: -11%;
+}
+
+li a.button {
+  color: black;
+  font-size: small;
+  font-weight: bold;
+  background-color: var(--primary-color);
+  padding: 1rem 1rem;
+  text-align: center;
+}
+
+ul.header_bottom li:nth-of-type(2) a.button {
+  display: none;
+}
+ul.header_bottom li:nth-of-type(3) a.button {
+  display: flex;
+}
+
+ul.header_bottom li:nth-of-type(4) a.button {
+  display: flex;
+  margin-right: 10%;
+}
+
+div#img a {
+  width: 50%;
+  height: 1rem;
+  background-size: 60%;
+  background-position: center;
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2FbuyIcon_white.png?v=1634428780613");
+  background-repeat: no-repeat;
+}
+ul.header_bottom li:nth-of-type(4) a.button #img {
+  display: flex;
+  max-width: 20px;
+}
+ul.header_bottom > li {
+  margin-left: 5%;
+  align-items: baseline;
+}
+
+ul.header_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ul.header_bottom > li {
+    margin-left: 10%;
+    align-items: baseline;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ul.header_bottom li:nth-of-type(2) a.button {
+    display: flex;
+  }
+  ul.header_bottom {
+    width: 100%;
+  }
+
+  li a.button {
+    font-size: large;
+  }
+}
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  li a.button {
+    font-size: large;
+  }
+}
+
+/* Medium devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  nav.header_bottom img {
+    width: 150%;
+    height: 10rem;
+  }
+  li a.button {
+    font-size: x-large;
+    padding: 1.5rem 1.5rem;
+  }
+}
+/* section */
+
+section {
+  display: flex;
+}
+
+article.image:nth-of-type(1){
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Ffashionrolex.jpg?v=1634559265930");
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  background-position: center;
+}
+
+article.image:nth-of-type(2){
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fwatchandwoman.jpg?v=1634559377120");
+  background-position: center;
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+}
+article.image:nth-of-type(3){
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fwedingrolex.jpg?v=1634559296644");
+  background-position: center;
+  width: 90%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  display: none;
+}
+article.image:nth-of-type(4){
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Finformalrolex.jpg?v=1634428789949");
+  background-position: center;
+  width: 100%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  display: none;
+}
+
+section#text{
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+div#text1{
+  margin-top: -3.5rem;
+  position: relative;
+  float: left;
+  color: var(--fourth-color);
+  background-color: #ffcc666e;
+  padding: 0.5em;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-right: 25%;
+}
+div#text2 {
+  margin-top: -3.5rem;
+  position: relative;
+  float: left;
+  color: var(--fourth-color);
+  background-color: #ffcc666e;
+  padding: 0.5em;
+  font-size: large;
+  font-weight: bolder;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  article.image:nth-of-type(3) {
+    display: inline;
+  }
+
+  div#text1 {
+    margin-right: 0%;
+  }
+  div#text1,
+  div#text2 {
+    font-size: x-large;
+    font-stretch: expanded;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  article.image:nth-of-type(4) {
+    display: inline;
+  }
+  article.image:nth-of-type(1),
+  article.image:nth-of-type(2),
+  article.image:nth-of-type(3),
+  article.image:nth-of-type(4) {
+    height: 20em;
+  }
+  div#text1,
+  div#text2 {
+    font-size: xx-large;
+    margin-top: -4.5rem;
+  }
+}
+/* main */
+
+main section {
+  display: flex;
+  flex-direction: column;
+}
+
+article {
+  margin-top: 1em;
+  display: flex;
+  flex-direction: row;
+}
+
+article#watch1:nth-last-child(1) {
+  text-align: center;
+}
+
+div#u-boat {
+  width: 50%;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fclockovertablejpg.jpg?v=1634559441963");
+}
+p.information {
+  display: none;
+}
+
+article#watch1 div {
+  width: 50%;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+h3 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+p {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: small;
+}
+
+article#watch2 div {
+  width: 50%;
+  text-align: center;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+div#geneve {
+  width: 50%;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fpinkrolex.jpg?v=1634559279957");
+}
+
+article#watch3 div {
+  width: 50%;
+  text-align: center;
+  margin-bottom: auto;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: auto;
+}
+
+div#mauricelaroix {
+  width: 50%;
+  height: 10em;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 70%;
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fwatchandtail.jpg?v=1634559498210");
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  article#watch1,
+  article#watch2,
+  article#watch3 {
+    height: 15em;
+  }
+  p.information {
+    display: inline;
+  }
+  article#watch1 div {
+    height: 15em;
+  }
+  article#watch2 div {
+    height: 15em;
+  }
+  article#watch3 div {
+    height: 15em;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  article#watch1,
+  article#watch2,
+  article#watch3 {
+    height: 20em;
+  }
+  article#watch1 div {
+    height: 20em;
+  }
+  article#watch2 div {
+    height: 20em;
+  }
+  article#watch3 div {
+    height: 20em;
+  }
+
+  div.Text p {
+    font-size: large;
+  }
+
+  div.Text h3 {
+    font-size: x-large;
+    margin-top: 0%;
+  }
+}
+/* quotes */
+section.quotes {
+  margin-top: 1%;
+  display: flex;
+  flex-flow: row;
+}
+
+div#quote1 {
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fquote4.jpg?v=1634559292053");
+  width: 50%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  background-position: center;
+}
+
+div#quote2 {
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fquote2.jpg?v=1634559292189");
+  width: 50%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+  margin-left: -30%;
+}
+
+div#quote3 {
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fquoute3.jpg?v=1634559292546");
+  width: 50%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+  margin-left: -30%;
+}
+div#quote4 {
+  background-image: url("https://cdn.glitch.me/3e378218-c3ff-41dd-8554-ae4b09de2f40%2Fquoute1.jpg?v=1634559292616");
+  width: 50%;
+  height: 15rem;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  object-fit: contain;
+  background-position: center;
+  position: relative;
+  margin-left: -30%;
+}
+
+div#quote1:hover,
+div#quote2:hover,
+div#quote3:hover,
+div#quote4:hover {
+  z-index: 3;
+  width: 60%;
+  height: auto;
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  div#quote1,
+  div#quote2,
+  div#quote3,
+  div#quote4 {
+    height: 20rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  div#quote1,
+  div#quote2,
+  div#quote3,
+  div#quote4 {
+    height: 25rem;
+  }
+}
+/* Medium devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  div#quote1,
+  div#quote2,
+  div#quote3,
+  div#quote4 {
+    height: 30rem;
+  }
+}
+
+/* footer */
+footer {
+  margin-top: 1%;
+  background-color: #f8cf7d;
+  display: flex;
+  flex-flow: row;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: small;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer ul {
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  text-align: center;
+}
+div#theCollection {
+  max-width: 60%;
+  height: auto;
+}
+
+div#footer img {
+  max-width: 60%;
+  height: auto;
+}
+div#footer ul {
+  max-width: 40%;
+  display: flex;
+  margin-left: 30%;
+  margin-right: auto;
+}
+
+div#footer li {
+  margin-top: 6%;
+}
+
+li#right {
+  margin-top: 10%;
+}
+
+footer > div {
+  margin-left: 9%;
+  display: flex;
+}
+
+div#theCollection li {
+  margin-top: 10%;
+}
+
+div#findYourWatch {
+  display: none;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  div#theCollection {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  div#findYourWatch {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+  }
+  div#findYourWatch li {
+    width: auto;
+    margin-top: 10%;
+  }
+  div#footer {
+    margin-left: 0;
+    margin-right: 0;
+    width: 30%;
+  }
+  div#footer img {
+    width: 150%;
+  }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  div#findYourWatch li {
+    margin-top: 15%;
+  }
+  div#theCollection {
+    margin-top: 0.8%;
+  }
+}
+
+/* Medium devices (landscape tablets, 992px and up) */
+@media only screen and (min-width: 992px) {
+  div#findYourWatch li {
+    margin-top: 18%;
+  }
+  div#theCollection li {
+    margin-top: 11%;
+  }
+}
+
+/* Medium devices (landscape tablets, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  div#findYourWatch li {
+    margin-top: 28%;
+  }
+  div#theCollection li {
+    margin-top: 20%;
+  }
+}
